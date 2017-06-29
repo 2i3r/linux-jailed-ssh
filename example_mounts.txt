@@ -1,0 +1,7 @@
+proc on /home/jailedroot/proc type proc (rw,relatime)
+sysfs on /home/jailedroot/sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+devtmpfs on /home/jailedroot/dev type devtmpfs (rw,relatime,size=336588k,nr_inodes=84147,mode=755)
+devpts on /home/jailedroot/dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /home/jailedroot/run type tmpfs (rw,nosuid,nodev,mode=755)
+tmpfs on /home/jailedroot/run/user/1001 type tmpfs (rw,nosuid,nodev,relatime,size=68236k,mode=700,uid=1001,gid=1000)
+/dev/mmcblk0p3 on /home/jailedroot/usr/share type ext4 (rw,relatime,data=ordered)
