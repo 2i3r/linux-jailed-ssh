@@ -51,7 +51,7 @@ cp /etc/ld.so.conf .
 cp /etc/nsswitch.conf .
 cp /etc/hosts .
 ```
-(↓↓ optional, for user profile and info ↓↓)
+(↓↓ optional, for newuser profile and info ↓↓)
 ```
 cp /etc/profile{,.d} .
 cp /etc/passwd .
