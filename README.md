@@ -74,7 +74,7 @@ then for each binary you copied, do:
 l2chroot [command_name]
 ```
 
-__7- l2chroot may not copy all the needed files, you need to "strace" each binary __
+__7- l2chroot may not copy all the needed files, you need to "strace" each binary__
 and look at "open" addresses, and copy those file it they has not:
 for example for bash:
 
